@@ -1,5 +1,6 @@
 # swiss_encoder
 The encoding swiss army knife for oneliner payloads.
+if you have any ideas on what encoding to add next hit me up. ill added as soon as possible
 
 
 # EXAMPLES:
