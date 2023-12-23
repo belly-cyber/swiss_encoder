@@ -2,23 +2,20 @@
 The encoding swiss army knife for oneliner payloads.
 
 
-##EXAMPLES:
+# EXAMPLES:
 
-### regular base64 
-./swiss_encoder.py base64 hello world
-
-aGVsbG8gd29ybGQ=
-
-### url safe encoding 
-./swiss_encoder.py url
-paste your oneliner below:
-hello~!@#$%^&*()_+=-,./<>?;':":[]{}|\`world
-
-hello~%21%40%23%24%25%5E%26%2A%28%29_%2B%3D-%2C.%2F%3C%3E%3F%3B%27%3A%22%3A%5B%5D%7B%7D%7C%5C%60world
+## regular base64 
+./swiss_encoder.py base64 hello world              
+![image](https://github.com/belly-cyber/swiss_encoder/assets/67766715/f0b51822-3231-43ec-b18c-99f94edaca8d)
 
 
-### based64 that works with that stupid windows utf-16 default encoding
-./swiss_encoder.py win64
-paste your oneliner below:
-write-host hello; write-host world
-powershell -e dwByAGkAdABlAC0AaABvAHMAdAAgAGgAZQBsAGwAbwA7ACAAdwByAGkAdABlAC0AaABvAHMAdAAgAHcAbwByAGwAZAA=
+
+## url safe encoding 
+
+./swiss_encoder.py url       
+![image](https://github.com/belly-cyber/swiss_encoder/assets/67766715/629a0d39-71d0-49d8-a68d-34d60d98706a)
+
+
+## based64 that works with that stupid windows utf-16 default encoding
+./swiss_encoder.py win64 
+![image](https://github.com/belly-cyber/swiss_encoder/assets/67766715/fd5f81f9-9e37-454c-aefe-d7844775f191)
